@@ -1,0 +1,48 @@
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    white-space: nowrap;
+    animation: slider 10s linear infinite; /* Animasyon süresini 10 saniye olarak değiştirin */
+  }
+  .slider img {
+    width: auto;
+    height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  @keyframes slider {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  article{
+   /* border-style: groove;*/
+    width: 85%;
+    margin: auto;
+  }
+  p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    color: black;
+  }
+  ul li{
+    display: inline-block;
+    margin-right: 5px;
+  }
+  footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(233, 233, 233);
+  }
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  
